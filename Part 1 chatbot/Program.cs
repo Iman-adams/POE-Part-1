@@ -22,7 +22,7 @@ public class Program
 
         RendBot rend = new RendBot();
 
-        // 3. User Input Validation & Personalization
+        // User Input Validation & Personalization
         Console.Write("System: Please enter your name: ");
         string nameInput = Console.ReadLine();
         rend.UserName = string.IsNullOrWhiteSpace(nameInput) ? "Valued User" : nameInput;
