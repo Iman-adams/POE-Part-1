@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Media;
 
@@ -20,7 +20,7 @@ namespace CyberSecurityAwarenessTraining
             }
             catch
             {
-                // Silent fail to keep console clean
+                
             }
         }
     }
